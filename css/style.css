@@ -1,10 +1,9 @@
-body .content {width:70%;margin: 0 auto;}/*Контент занимает 70% ширины страницы.
-Контент выровнен по середине.*/
+body .content {width:70%;margin: 0 auto;}
 h1-h6{
-	font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;/*Заголовки всех уровней выполнены шрифтом без засечек.*/
-    margin-top:  1.5em;/*Верхний отступ заголовков установлен больше нижнего (например, 1.5em), чтобы соблюсти правило внутреннего и внешнего.*/
+	font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top:  1.5em;
 }
-h1{font-size: 32px;}/*h1 имеет размер 32px.*/
-table, table td {border: solid 1px black;}/*Таблицы имеют непрерывные границы чёрного цвета толщиной 1px.*/
-figure{font-style: italic;}/*Подписи под картинками выполены курсивом.*/
-figure {float:right;}/*Картинки обтекаются текстом. Картинки справа, текст слева.*/
+h1{font-size: 32px;}
+table, table td {border: solid 1px black;}
+figure{font-style: italic;}
+figure {float:right;}
