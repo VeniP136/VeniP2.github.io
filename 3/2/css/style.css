@@ -1,0 +1,43 @@
+
+@media (min-width: 901px) {.block{
+    width: 28%;
+    height: 300px;
+    margin-left: 2.3%; 
+    margin-right: 2.3%;
+    margin-top: 50px;
+    display: inline-block; 
+        
+} }
+    @media (max-width: 900px) and (min-width: 631px) {.block{
+    width: 35%;
+    height: 300px;
+    margin-left: 10%; 
+    margin-right: 2.3%;
+    margin-top: 50px;
+    display: inline-block; 
+} }
+    @media (max-width: 630px) {.block{
+    width: 60%;
+    height: 300px;
+    margin-left: 21.3%; 
+    margin-right: 2.3%;
+    margin-top: 50px;
+    display: inline-block; 
+} }
+
+.text3{
+    font-size: 18px;
+    font-family: Courier New, monospace;
+    text-align: left;
+}
+hr{
+    color: aliceblue;
+    background-color: aliceblue;
+}
+.img2{
+    width: 100%;
+    height: 80%;
+    display: inline-block ; 
+}
+
+body {margin:0;}

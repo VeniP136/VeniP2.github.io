@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 30px 0 10px 0;
+    font-size: 32px;
+    text-align: center;
+    color: rgb(44, 116, 88);
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 200px;
+    align-items: center;
+    background-color: rgb(44, 116, 88);
+    color: #fff;
+}
+
+.header .header-logo {
+    display: flex;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.header ul li {
+    margin-right: 5px;
+}
+
+.main {
+    background-color: #fff;
+}
+
+.main-img-block {
+    position: relative;
+}
+
+.main-img-block-img {
+    background-size: 100%;
+    background-image: url('img/image.png');
+    background-repeat: no-repeat;
+    height: 203px;
+}
+
+.main-img-block h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 32px;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    margin: 0;
+}
+
+.the-problem-block {
+    padding-top: 0;
+    padding: 0 200px 17% 200px;
+}
+
+.the-problem-block-text-description p {
+    margin: 24px 0;
+}
+
+.the-problem-block-img-container {
+    height: 300px;
+    position: relative;
+}
+
+.the-problem-block-img-item {
+    width: 115%;
+    margin: -15%;
+    background-size: cover;
+    background-image: url('img/image-1.png');
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.the-problem-block-img-item-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 50px;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.piedpipercoin-section {
+    padding: 0 200px;
+}
+
+.piedpipercoin-section-text-description p {
+    margin: 28px 0;
+}
+
+.piedpipercoin-section-text-description img {
+    width: 70px;
+}
+
+.piedpipercoin-section-text-description .logo {
+    margin-right: 20px;
+    float: left;
+}
+
+.theteam {
+    padding: 0 200px;
+    background-color: rgb(236, 236, 236);
+    padding-bottom: 50px;
+}
+
+.theteam h1 {
+    padding: 30px 0;
+}
+
+.theteam-block-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 50px;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.theteam-block-container-item-name {
+    color: rgb(44, 116, 88);
+
+}
+
+.theteam-block-container-item-description {
+    font-style: italic;
+}
+
+.footer {
+    background-color: rgb(71, 71, 71);
+    color: #fff;
+    padding: 30px 340px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .header {
+        padding: 0 20px;
+    }
+
+    .main-img-block-img {
+        background-size: cover;
+        background-image: url('img/image.png');
+        background-repeat: no-repeat;
+        height: 203px;
+    }
+
+    .the-problem-block {
+        padding: 0 20px 17% 20px;
+    }
+
+
+    .the-problem-block-img-item-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0;
+        color: #fff;
+        text-align: center;
+        line-height: 32px;
+        font-size: 24px;
+        font-style: italic;
+    }
+
+    .piedpipercoin-section {
+        padding: 0 20px;
+    }
+
+    .theteam {
+        padding: 0;
+        padding-bottom: 50px;
+    }
+
+    .footer {
+        padding: 30px 120px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .theteam-block-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .the-problem-block {
+        padding: 0 20px 17% 20px;
+    }
+
+}

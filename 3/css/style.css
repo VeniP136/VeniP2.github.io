@@ -1,0 +1,84 @@
+.upBar{
+    background-image: url(http://workhunt.ru/do3/photo.png);
+    background-repeat: no-repeat;
+    height: 364px;
+}
+.upBar div{
+    margin-left: 6%;
+    padding-top: 90px;
+    width: 400px;
+    height: 180px
+}
+.upBar div div{
+    background-color: white;
+    padding: 20px
+}
+.upBar div h1{
+    text-align: center;
+}
+.upBar div h5{
+    margin-top: 50px;
+    padding-bottom: 10px
+}
+.upBar div a{
+    margin-top: -45px;
+    color: white;
+    margin-left: 250px;
+    position: absolute;
+    border: 6px double black;
+    border-radius: 45px;
+    background-color: black;
+}
+.col-5{
+    border: 1px solid black;
+    padding: 5;
+}
+.col-5 img{
+}
+hr{
+    color: aliceblue;
+    background-color: aliceblue;
+}
+
+@media (min-width: 901px) {.block{
+    margin-top: 35px;
+    border: 1px solid #E3E3E3;
+    width: 45%;
+    height: 150px;
+    margin-left: 2.3%; 
+    margin-right: 2.3%;
+    display: inline-block; 
+    margin-bottom: 50px;
+
+} }
+    @media (max-width: 900px) and (min-width: 631px) {.block{
+    margin-top: 35px;
+    border: 1px solid #E3E3E3;
+    height: 150px;
+    margin-left: 10%; 
+    margin-right: 2.3%;
+    display: inline-block;
+    margin-bottom: 50px;
+} }
+    @media (max-width: 630px) {.block{
+    margin-top: 35px;
+    border: 1px solid #E3E3E3;
+    height: 150px;
+    margin-left: 21.3%; 
+    margin-right: 2.3%;
+    display: inline-block;
+    margin-bottom: 50px;
+} }
+
+.text3{
+    font-size: 14px;
+    font-family: Courier New, monospace;
+    text-align: left;
+}
+
+.img2{
+    float:right;
+    width: 50%;
+    height: 100%;
+    display: inline-block ; 
+}
